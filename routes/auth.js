@@ -36,4 +36,4 @@ const validate = (date) => {
     return schema.validate(data)
 }
 
-module.exports = router;
+module.exports = router; 
