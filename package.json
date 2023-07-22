@@ -1,0 +1,21 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "fazil",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "joi": "^17.9.2",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.0",
+    "nodemon": "^3.0.1"
+  }
+}
