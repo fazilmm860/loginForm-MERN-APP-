@@ -4,7 +4,7 @@ const Joi = require('joi');
 const passwordComplexity = require('joi-password-complexity')
 
 const userSchema = mongoose.Schema({
-    fistName: {
+    firstName: {
         type: String,
         required: true,
 
@@ -28,7 +28,7 @@ userSchema.methods.generateAuthToken = function () {
     return token
 }
 
-const User = mongoose.model("User", userSchema)
+const User = mongoose.model("user", userSchema)
 
 const validate = (data) => {
     const schema = Joi.object({

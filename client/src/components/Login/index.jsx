@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import axios from 'axios'
 import React, { useState } from 'react'
 
-const Signup = () => {
+const Signin = () => {
     const [data,setData]=useState({
    
         email:"",
@@ -83,4 +83,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signin
